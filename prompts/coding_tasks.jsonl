@@ -1,0 +1,3 @@
+{"id":"coding_001","category":"coding","prompt":"Write a minimal FastAPI app with a /health endpoint that returns {\"status\":\"ok\"}. Also include a pytest test.","expected_type":"code"}
+{"id":"coding_002","category":"debugging","prompt":"This Python function fails for empty input. Explain the bug and provide a safe fix. def avg(xs): return sum(xs)/len(xs)","expected_type":"code_review"}
+{"id":"coding_003","category":"architecture","prompt":"Design a Python module structure for an LLM inference benchmark tool that measures latency, TTFT, throughput, and task success.","expected_type":"design"}

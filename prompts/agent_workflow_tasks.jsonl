@@ -1,0 +1,2 @@
+{"id":"agent_001","category":"multi_agent","task":"Design an inference benchmark system for testing Qwen models on RunPod A100 and H200. Include architecture, metrics, failure modes, and a recommendation method."}
+{"id":"agent_002","category":"multi_agent","task":"Plan a small SaaS backend that exposes an OpenAI-compatible endpoint router and benchmarks two model servers: vLLM and SGLang."}

@@ -1,0 +1,3 @@
+{"id":"simple_001","category":"json_extraction","prompt":"Extract name, company, role, and date as valid JSON from this text: John Smith from NVIDIA called on June 28 about an AI infrastructure role.","expected_type":"json"}
+{"id":"simple_002","category":"classification","prompt":"Classify this request into exactly one label from: coding, research, scheduling, finance, health, other. Request: Build a benchmark for Qwen models on RunPod.","expected_type":"label"}
+{"id":"simple_003","category":"summarization","prompt":"Summarize this in 3 bullets: vLLM and SGLang are inference serving engines. RunPod provides GPU pods. A100 is a good first serious GPU, while H200 is better for large long-context tests.","expected_type":"text"}

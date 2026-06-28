@@ -1,0 +1,2 @@
+{"id":"func_001","category":"function_calling","prompt":"Return a JSON object for a function call named create_benchmark_job with arguments model='Qwen/Qwen3-14B', gpu='A100_80GB', engine='vllm', concurrency=5.","expected_type":"json","expected_answer":null}
+{"id":"func_002","category":"function_calling","prompt":"Return only valid JSON with tool_name and arguments for checking a vLLM health endpoint at http://127.0.0.1:8000/v1/models.","expected_type":"json","expected_answer":null}

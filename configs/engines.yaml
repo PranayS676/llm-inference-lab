@@ -1,0 +1,14 @@
+engines:
+  vllm:
+    default_port: 8000
+    openai_base_url: "http://127.0.0.1:8000/v1"
+    startup_script: "servers/start_vllm.sh"
+    health_check: "servers/health_check.sh"
+    notes: "Primary MVP engine. Use first on A100."
+
+  sglang:
+    default_port: 30000
+    openai_base_url: "http://127.0.0.1:30000/v1"
+    startup_script: "servers/start_sglang.sh"
+    health_check: "servers/health_check.sh"
+    notes: "Second-phase engine comparison after vLLM is stable."

@@ -1,0 +1,28 @@
+benchmark_profiles:
+  smoke:
+    prompt_file: prompts/simple_tasks.jsonl
+    concurrency: [1]
+    max_tasks: 5
+    max_tokens: 256
+    temperature: 0
+
+  a100_qwen_baseline:
+    prompt_files:
+      - prompts/simple_tasks.jsonl
+      - prompts/coding_tasks.jsonl
+      - prompts/rag_tasks.jsonl
+      - prompts/function_calling_tasks.jsonl
+      - prompts/agent_workflow_tasks.jsonl
+    concurrency: [1, 5, 10]
+    max_tasks: 50
+    max_tokens: 512
+    temperature: 0
+
+  h200_long_context:
+    prompt_files:
+      - prompts/long_context_tasks.jsonl
+      - prompts/agent_workflow_tasks.jsonl
+    concurrency: [1, 3, 5]
+    max_tasks: 20
+    max_tokens: 1024
+    temperature: 0

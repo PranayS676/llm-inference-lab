@@ -1,0 +1,48 @@
+models:
+  qwen3_4b:
+    hf_id: Qwen/Qwen3-4B
+    family: qwen
+    recommended_gpu: A100_80GB
+    max_model_len: 32768
+    dtype: bfloat16
+    notes: Good first small model for routing, extraction, summarization.
+
+  qwen3_14b:
+    hf_id: Qwen/Qwen3-14B
+    family: qwen
+    recommended_gpu: A100_80GB
+    max_model_len: 32768
+    dtype: bfloat16
+    notes: Main balanced benchmark model for A100.
+
+  qwen3_32b:
+    hf_id: Qwen/Qwen3-32B
+    family: qwen
+    recommended_gpu: A100_80GB
+    max_model_len: 32768
+    dtype: bfloat16
+    notes: Heavier reasoning/coding model. Use lower concurrency first.
+
+  llama_8b:
+    hf_id: meta-llama/Llama-3.1-8B-Instruct
+    family: llama
+    recommended_gpu: A100_80GB
+    max_model_len: 32768
+    dtype: bfloat16
+    notes: Alternative baseline. Requires HF access approval.
+
+  mistral_small:
+    hf_id: mistralai/Mistral-Small-3.1-24B-Instruct-2503
+    family: mistral
+    recommended_gpu: A100_80GB
+    max_model_len: 32768
+    dtype: bfloat16
+    notes: Medium alternative for instruction/coding tests.
+
+  glm_52:
+    hf_id: zai-org/GLM-5.2
+    family: glm
+    recommended_gpu: H200_141GB
+    max_model_len: 131072
+    dtype: bfloat16
+    notes: Test later on H200 for long-context workloads.

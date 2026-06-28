@@ -1,0 +1,14 @@
+gpus:
+  A100_80GB:
+    provider: runpod
+    memory_gb: 80
+    purpose: Main first serious benchmark GPU
+    notes: Start here for Qwen 4B, 14B, 32B, and some 70B quantized experiments.
+    hourly_price_usd: null
+
+  H200_141GB:
+    provider: runpod
+    memory_gb: 141
+    purpose: Long-context and large-model benchmark GPU
+    notes: Use after A100 benchmark pipeline works. Ideal for KV-cache-heavy tests.
+    hourly_price_usd: null
