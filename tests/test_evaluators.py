@@ -10,6 +10,23 @@ def test_json_validity_evaluator():
     assert evaluate_json_validity("not-json")["json_valid"] is False
 
 
+def test_json_validity_accepts_markdown_fenced_json():
+    response = """```json
+{"ok": true}
+```"""
+
+    assert evaluate_json_validity(response)["json_valid"] is True
+
+
+def test_json_validity_rejects_json_inside_extra_prose():
+    response = """Here is the JSON:
+```json
+{"ok": true}
+```"""
+
+    assert evaluate_json_validity(response)["json_valid"] is False
+
+
 def test_exact_answer_contains():
     result = evaluate_exact_or_contains("A100 80GB", "The best GPU is A100 80GB for this test.")
 
