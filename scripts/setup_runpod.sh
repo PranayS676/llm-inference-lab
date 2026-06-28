@@ -4,7 +4,11 @@ set -euo pipefail
 sudo apt-get update || true
 sudo apt-get install -y git curl tmux htop nvtop jq || true
 
-python -m pip install --upgrade pip uv
+if ! command -v uv >/dev/null 2>&1; then
+  curl -LsSf https://astral.sh/uv/install.sh | sh
+  export PATH="$HOME/.local/bin:$PATH"
+fi
+
 uv sync
 
 # Install one engine first. Keep SGLang for the comparison phase.
