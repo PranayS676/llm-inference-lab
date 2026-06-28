@@ -23,7 +23,7 @@ uv pip install "vllm==${VLLM_VERSION}" "${TRANSFORMERS_CONSTRAINT}"
 # SGLang latest releases can pull newer CUDA/Torch stacks. For this RunPod
 # PyTorch 2.8 / CUDA 12.8 image, keep SGLang on the Torch 2.8-compatible line.
 # SGLANG_VERSION="${SGLANG_VERSION:-0.5.5.post3}"
-# uv pip install "sglang[all]==${SGLANG_VERSION}"
+# uv pip install "sglang==${SGLANG_VERSION}"
 
 chmod +x servers/*.sh scripts/*.sh
 

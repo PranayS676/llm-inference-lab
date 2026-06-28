@@ -54,7 +54,7 @@ uv run lab-concurrency --prompt-file prompts/simple_tasks.jsonl --concurrency 1 
 ### SGLang Pulls A Different Torch/CUDA Stack
 
 - On the RunPod PyTorch 2.8 / CUDA 12.8 image, install
-  `sglang[all]==0.5.5.post3`.
+  `sglang==0.5.5.post3`.
 - Do not install unpinned latest SGLang on this image; newer releases may pull
   Torch 2.11 / CUDA 13 packages.
 
