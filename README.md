@@ -74,6 +74,10 @@ bash scripts/setup_runpod.sh
 source .venv/bin/activate
 ```
 
+`setup_runpod.sh` pins vLLM to a Torch 2.8-compatible release for the RunPod
+PyTorch 2.8 / CUDA 12.8 image. Override `VLLM_VERSION` only when you are
+intentionally testing a newer RunPod image or driver.
+
 Start vLLM:
 
 ```bash

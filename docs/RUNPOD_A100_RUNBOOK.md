@@ -21,6 +21,11 @@ bash scripts/setup_runpod.sh
 source .venv/bin/activate
 ```
 
+The setup script defaults to `VLLM_VERSION=0.11.0` because that release keeps
+Torch on the 2.8 / CUDA 12.x wheel line used by the RunPod PyTorch 2.8 image.
+Do not run an unpinned `uv pip install vllm` on this pod image unless you are
+also upgrading the image or driver.
+
 ## Start Qwen 4B
 
 ```bash

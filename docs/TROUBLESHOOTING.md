@@ -28,6 +28,14 @@ uv run lab-concurrency --prompt-file prompts/simple_tasks.jsonl --concurrency 1 
 - Check disk space on the volume.
 - Try Qwen 4B before 14B or 32B.
 
+### Torch Reports That The NVIDIA Driver Is Too Old
+
+- Check `uv pip show vllm torch`.
+- On the RunPod PyTorch 2.8 / CUDA 12.8 image, use `bash scripts/setup_runpod.sh`
+  so vLLM stays pinned to the Torch 2.8-compatible release.
+- If you intentionally install a newer vLLM, also choose a RunPod image and
+  driver that match the CUDA wheel line it pulls.
+
 ### Concurrency Fails
 
 - Lower concurrency.
