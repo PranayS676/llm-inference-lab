@@ -31,10 +31,18 @@ uv run lab-concurrency --prompt-file prompts/simple_tasks.jsonl --concurrency 1 
 ### Torch Reports That The NVIDIA Driver Is Too Old
 
 - Check `uv pip show vllm torch`.
-- On the RunPod PyTorch 2.8 / CUDA 12.8 image, use `bash scripts/setup_runpod.sh`
-  so vLLM stays pinned to the Torch 2.8-compatible release.
+- On the RunPod PyTorch 2.8 / CUDA 12.8 image, use
+  `bash scripts/setup_runpod.sh` so vLLM stays pinned to the Torch
+  2.8-compatible release.
 - If you intentionally install a newer vLLM, also choose a RunPod image and
   driver that match the CUDA wheel line it pulls.
+
+### Qwen Tokenizer Attribute Error
+
+- If startup fails with `Qwen2Tokenizer has no attribute
+  all_special_tokens_extended`, check `uv pip show transformers`.
+- Use `bash scripts/setup_runpod.sh` so Transformers stays below 5 with
+  `transformers>=4.55.2,<5`.
 
 ### Concurrency Fails
 

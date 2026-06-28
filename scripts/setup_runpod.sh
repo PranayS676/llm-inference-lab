@@ -13,10 +13,11 @@ uv sync --locked
 
 # Install one engine first. Keep SGLang for the comparison phase.
 # The RunPod PyTorch 2.8 / CUDA 12.8 image needs a vLLM release that keeps
-# Torch on the CUDA 12.x wheel line. Newer unpinned vLLM releases can pull
-# CUDA 13 wheels and fail on A100 pods with CUDA 12.8 drivers.
+# Torch on the CUDA 12.x wheel line. Transformers is capped below 5 because
+# vLLM 0.11.0 expects the Transformers 4 tokenizer API.
 VLLM_VERSION="${VLLM_VERSION:-0.11.0}"
-uv pip install "vllm==${VLLM_VERSION}"
+TRANSFORMERS_CONSTRAINT="${TRANSFORMERS_CONSTRAINT:-transformers>=4.55.2,<5}"
+uv pip install "vllm==${VLLM_VERSION}" "${TRANSFORMERS_CONSTRAINT}"
 
 # Install SGLang only when you are ready to compare engines.
 # uv pip install "sglang[all]"

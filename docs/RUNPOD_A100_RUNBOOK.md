@@ -23,8 +23,10 @@ source .venv/bin/activate
 
 The setup script defaults to `VLLM_VERSION=0.11.0` because that release keeps
 Torch on the 2.8 / CUDA 12.x wheel line used by the RunPod PyTorch 2.8 image.
-Do not run an unpinned `uv pip install vllm` on this pod image unless you are
-also upgrading the image or driver.
+It also defaults to `TRANSFORMERS_CONSTRAINT=transformers>=4.55.2,<5` because
+vLLM 0.11.0 expects the Transformers 4 tokenizer API. Do not run an unpinned
+`uv pip install vllm` on this pod image unless you are also upgrading the image,
+driver, and compatibility pins together.
 
 ## Start Qwen 4B
 
