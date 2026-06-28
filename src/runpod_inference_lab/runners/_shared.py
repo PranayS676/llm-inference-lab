@@ -16,6 +16,7 @@ def make_client(settings: Settings) -> OpenAICompatibleClient:
         api_key=settings.openai_api_key,
         model=settings.model_name,
         timeout_seconds=settings.request_timeout_seconds,
+        default_extra_body=settings.default_extra_body,
     )
 
 

@@ -3,6 +3,7 @@ from __future__ import annotations
 import os
 from dataclasses import dataclass
 from pathlib import Path
+from typing import Any
 
 from dotenv import load_dotenv
 
@@ -25,6 +26,18 @@ def _env_float(name: str, default: float) -> float:
     return float(_env(name, str(default)))
 
 
+def _env_bool_optional(name: str) -> bool | None:
+    raw = os.getenv(name)
+    if raw is None or raw.strip() == "":
+        return None
+    normalized = raw.strip().lower()
+    if normalized in {"1", "true", "yes", "on"}:
+        return True
+    if normalized in {"0", "false", "no", "off"}:
+        return False
+    raise ValueError(f"{name} must be one of: true, false, 1, 0, yes, no, on, off")
+
+
 @dataclass(frozen=True)
 class Settings:
     openai_base_url: str
@@ -44,6 +57,17 @@ class Settings:
     gpu_memory_utilization: float
     dtype: str
     temperature: float
+    chat_template_enable_thinking: bool | None
+
+    @property
+    def default_extra_body(self) -> dict[str, Any] | None:
+        if self.chat_template_enable_thinking is None:
+            return None
+        return {
+            "chat_template_kwargs": {
+                "enable_thinking": self.chat_template_enable_thinking,
+            }
+        }
 
     @classmethod
     def from_env(cls) -> Settings:
@@ -67,4 +91,5 @@ class Settings:
             gpu_memory_utilization=_env_float("GPU_MEMORY_UTILIZATION", 0.90),
             dtype=_env("DTYPE", "auto"),
             temperature=_env_float("TEMPERATURE", 0.0),
+            chat_template_enable_thinking=_env_bool_optional("CHAT_TEMPLATE_ENABLE_THINKING"),
         )

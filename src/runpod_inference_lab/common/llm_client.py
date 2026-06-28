@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import time
+from copy import deepcopy
 from dataclasses import asdict, dataclass
 from typing import Any, Protocol
 
@@ -44,9 +45,27 @@ class OpenAICompatibleClient:
         api_key: str,
         model: str,
         timeout_seconds: float = 180,
+        default_extra_body: dict[str, Any] | None = None,
     ) -> None:
         self.model = model
         self.client = AsyncOpenAI(base_url=base_url, api_key=api_key, timeout=timeout_seconds)
+        self.default_extra_body = deepcopy(default_extra_body)
+
+    def _extra_body_for_request(self, extra_body: dict[str, Any] | None) -> dict[str, Any] | None:
+        if self.default_extra_body is None:
+            return extra_body
+        if extra_body is None:
+            return deepcopy(self.default_extra_body)
+
+        merged = deepcopy(self.default_extra_body)
+        for key, value in extra_body.items():
+            if isinstance(value, dict) and isinstance(merged.get(key), dict):
+                nested = dict(merged[key])
+                nested.update(value)
+                merged[key] = nested
+            else:
+                merged[key] = value
+        return merged
 
     async def chat(
         self,
@@ -66,6 +85,7 @@ class OpenAICompatibleClient:
         first_token_time: float | None = None
         chunks: list[str] = []
         usage: dict[str, Any] = {}
+        request_extra_body = self._extra_body_for_request(extra_body)
 
         try:
             if stream:
@@ -75,7 +95,7 @@ class OpenAICompatibleClient:
                     temperature=temperature,
                     max_tokens=max_tokens,
                     stream=True,
-                    extra_body=extra_body,
+                    extra_body=request_extra_body,
                 )
                 async for event in response:
                     delta = event.choices[0].delta.content or ""
@@ -90,7 +110,7 @@ class OpenAICompatibleClient:
                     temperature=temperature,
                     max_tokens=max_tokens,
                     stream=False,
-                    extra_body=extra_body,
+                    extra_body=request_extra_body,
                 )
                 text = response.choices[0].message.content or ""
                 usage = response.usage.model_dump() if response.usage else {}

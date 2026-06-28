@@ -22,6 +22,7 @@ def metadata() -> RunMetadata:
         max_model_len=32768,
         dtype="auto",
         gpu_memory_utilization=0.9,
+        chat_template_enable_thinking=False,
         pod_id="pod-test",
         python_version="3.11",
         platform="test",

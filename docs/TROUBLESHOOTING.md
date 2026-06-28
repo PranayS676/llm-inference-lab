@@ -44,6 +44,13 @@ uv run lab-concurrency --prompt-file prompts/simple_tasks.jsonl --concurrency 1 
 - Use `bash scripts/setup_runpod.sh` so Transformers stays below 5 with
   `transformers>=4.55.2,<5`.
 
+### Qwen Outputs `<think>` Instead Of JSON
+
+- Set `CHAT_TEMPLATE_ENABLE_THINKING=false` in the client terminal before
+  running `lab-single`, `lab-batch`, or `lab-concurrency`.
+- Keep thinking enabled only for experiments where the reasoning trace is part
+  of what you want to measure.
+
 ### Concurrency Fails
 
 - Lower concurrency.

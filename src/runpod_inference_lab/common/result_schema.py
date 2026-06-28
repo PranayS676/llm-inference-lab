@@ -18,6 +18,7 @@ REQUIRED_RESULT_KEYS = {
     "max_model_len",
     "dtype",
     "gpu_memory_utilization",
+    "chat_template_enable_thinking",
     "task_id",
     "category",
     "concurrency",

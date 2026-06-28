@@ -58,6 +58,7 @@ PROVIDER=runpod
 GPU_NAME=A100_80GB
 ENGINE=vllm
 RUN_TAG=dev
+CHAT_TEMPLATE_ENABLE_THINKING=false
 ```
 
 Do not commit real API keys.
@@ -99,6 +100,7 @@ export MODEL_NAME=Qwen/Qwen3-4B
 export GPU_NAME=A100_80GB
 export GPU_MEMORY_GB=80
 export ENGINE=vllm
+export CHAT_TEMPLATE_ENABLE_THINKING=false
 
 bash servers/health_check.sh
 uv run lab-single

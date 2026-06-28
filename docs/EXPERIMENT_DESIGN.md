@@ -38,4 +38,12 @@ Do not compare runs unless these match or are the specific variable under test:
 - dtype
 - GPU memory utilization
 - temperature
+- chat template thinking mode
 - max tokens
+
+## Qwen3 Thinking Mode
+
+For structured-output and classification experiments, set
+`CHAT_TEMPLATE_ENABLE_THINKING=false` so the response body contains the requested
+answer instead of `<think>` traces. Run separate thinking-enabled experiments
+when you specifically want to measure reasoning behavior.

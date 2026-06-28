@@ -50,6 +50,7 @@ class RunMetadata:
     max_model_len: int
     dtype: str
     gpu_memory_utilization: float
+    chat_template_enable_thinking: bool | None
     pod_id: str
     python_version: str
     platform: str
@@ -73,6 +74,7 @@ class RunMetadata:
             max_model_len=settings.max_model_len,
             dtype=settings.dtype,
             gpu_memory_utilization=settings.gpu_memory_utilization,
+            chat_template_enable_thinking=settings.chat_template_enable_thinking,
             pod_id=settings.pod_id,
             python_version=platform.python_version(),
             platform=platform.platform(),
