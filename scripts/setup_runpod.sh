@@ -20,7 +20,10 @@ TRANSFORMERS_CONSTRAINT="${TRANSFORMERS_CONSTRAINT:-transformers>=4.55.2,<5}"
 uv pip install "vllm==${VLLM_VERSION}" "${TRANSFORMERS_CONSTRAINT}"
 
 # Install SGLang only when you are ready to compare engines.
-# uv pip install "sglang[all]"
+# SGLang latest releases can pull newer CUDA/Torch stacks. For this RunPod
+# PyTorch 2.8 / CUDA 12.8 image, keep SGLang on the Torch 2.8-compatible line.
+# SGLANG_VERSION="${SGLANG_VERSION:-0.5.5.post3}"
+# uv pip install "sglang[all]==${SGLANG_VERSION}"
 
 chmod +x servers/*.sh scripts/*.sh
 

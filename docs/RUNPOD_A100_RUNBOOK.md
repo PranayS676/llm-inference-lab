@@ -28,6 +28,10 @@ vLLM 0.11.0 expects the Transformers 4 tokenizer API. Do not run an unpinned
 `uv pip install vllm` on this pod image unless you are also upgrading the image,
 driver, and compatibility pins together.
 
+For SGLang comparisons on this image, use `sglang[all]==0.5.5.post3`. Newer
+SGLang releases may pull Torch 2.11 / CUDA 13 packages that do not match this
+RunPod CUDA 12.8 driver.
+
 ## Start Qwen 4B
 
 ```bash
