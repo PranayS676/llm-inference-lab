@@ -1,9 +1,12 @@
 from __future__ import annotations
 
 import asyncio
+from pathlib import Path
+from types import SimpleNamespace
 
 import pytest
 
+from runpod_inference_lab.runners._shared import resolve_output_file
 from runpod_inference_lab.runners.concurrency import run_with_concurrency_limit
 
 
@@ -24,3 +27,14 @@ async def test_run_with_concurrency_limit_respects_limit():
 
     assert results == [1, 2, 3, 4, 5]
     assert max_active <= 2
+
+
+def test_resolve_output_file_defaults_to_settings_results_dir(tmp_path):
+    settings = SimpleNamespace(results_dir=tmp_path / "results")
+
+    assert resolve_output_file(settings, None, "batch_results.jsonl") == (
+        tmp_path / "results" / "batch_results.jsonl"
+    )
+    assert resolve_output_file(settings, Path("custom.jsonl"), "batch_results.jsonl") == Path(
+        "custom.jsonl"
+    )

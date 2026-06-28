@@ -17,7 +17,7 @@ from runpod_inference_lab.common.prompts import build_prompt, load_prompt_rows
 from runpod_inference_lab.common.result_schema import build_result_row
 from runpod_inference_lab.common.settings import Settings
 from runpod_inference_lab.evals.combined import evaluate_task
-from runpod_inference_lab.runners._shared import build_task_result, make_client
+from runpod_inference_lab.runners._shared import build_task_result, make_client, resolve_output_file
 
 app = typer.Typer(help="Run concurrent requests against one loaded model endpoint.")
 
@@ -50,7 +50,7 @@ def percentile(values: list[float], percent: float) -> float | None:
 @app.command()
 def main(
     prompt_file: Path = typer.Option(Path("prompts/simple_tasks.jsonl")),
-    output_file: Path = typer.Option(Path("results/concurrency_results.jsonl")),
+    output_file: Path | None = typer.Option(None),
     concurrency: int = 5,
     max_tasks: int = 50,
     max_tokens: int = 512,
@@ -115,7 +115,10 @@ def main(
             **prompt_file_metadata(prompt_file),
         )
 
-        written = append_jsonl(output_file, rows + [summary])
+        written = append_jsonl(
+            resolve_output_file(settings, output_file, "concurrency_results.jsonl"),
+            rows + [summary],
+        )
         print(summary)
         print(f"Wrote {len(rows)} detail rows + 1 summary row to {written}")
 

@@ -14,7 +14,7 @@ from runpod_inference_lab.common.metadata import RunMetadata, prompt_file_metada
 from runpod_inference_lab.common.prompts import build_prompt, load_prompt_rows
 from runpod_inference_lab.common.result_schema import build_result_row
 from runpod_inference_lab.common.settings import Settings
-from runpod_inference_lab.runners._shared import build_task_result, make_client
+from runpod_inference_lab.runners._shared import build_task_result, make_client, resolve_output_file
 
 app = typer.Typer(help="Run concurrent agent fanout against one shared endpoint.")
 
@@ -22,7 +22,7 @@ app = typer.Typer(help="Run concurrent agent fanout against one shared endpoint.
 @app.command()
 def main(
     prompt_file: Path = typer.Option(Path("prompts/agent_workflow_tasks.jsonl")),
-    output_file: Path = typer.Option(Path("results/agent_concurrent_results.jsonl")),
+    output_file: Path | None = typer.Option(None),
     max_tasks: int = 2,
     max_tokens: int = 700,
 ) -> None:
@@ -87,7 +87,10 @@ def main(
                 )
             )
 
-        written = append_jsonl(output_file, rows)
+        written = append_jsonl(
+            resolve_output_file(settings, output_file, "agent_concurrent_results.jsonl"),
+            rows,
+        )
         print(f"Wrote {len(rows)} rows to {written}")
 
     asyncio.run(run())

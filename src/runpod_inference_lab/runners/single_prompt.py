@@ -11,7 +11,7 @@ from runpod_inference_lab.common.io import append_jsonl
 from runpod_inference_lab.common.metadata import RunMetadata
 from runpod_inference_lab.common.settings import Settings
 from runpod_inference_lab.evals.combined import evaluate_task
-from runpod_inference_lab.runners._shared import build_task_result, make_client
+from runpod_inference_lab.runners._shared import build_task_result, make_client, resolve_output_file
 
 app = typer.Typer(help="Run one prompt against the configured OpenAI-compatible endpoint.")
 
@@ -21,7 +21,7 @@ def main(
     prompt: str = (
         "Extract name, company, and date as valid JSON: Pranay spoke with NVIDIA on June 28."
     ),
-    output_file: Path = typer.Option(Path("results/single_prompt_results.jsonl")),
+    output_file: Path | None = typer.Option(None),
     max_tokens: int = 256,
     expected_type: str = "json",
 ) -> None:
@@ -55,7 +55,9 @@ def main(
             gpu_before=gpu_before,
             gpu_after=gpu_after,
         )
-        written = append_jsonl(output_file, [row])
+        written = append_jsonl(
+            resolve_output_file(settings, output_file, "single_prompt_results.jsonl"), [row]
+        )
         print(f"Wrote 1 row to {written}")
         print({"success": row["success"], "latency_ms": row["latency_ms"], "error": row["error"]})
 

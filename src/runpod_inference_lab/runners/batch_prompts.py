@@ -12,7 +12,7 @@ from runpod_inference_lab.common.metadata import RunMetadata
 from runpod_inference_lab.common.prompts import build_prompt, load_prompt_rows
 from runpod_inference_lab.common.settings import Settings
 from runpod_inference_lab.evals.combined import evaluate_task
-from runpod_inference_lab.runners._shared import build_task_result, make_client
+from runpod_inference_lab.runners._shared import build_task_result, make_client, resolve_output_file
 
 app = typer.Typer(help="Run a prompt file sequentially against the configured endpoint.")
 
@@ -20,7 +20,7 @@ app = typer.Typer(help="Run a prompt file sequentially against the configured en
 @app.command()
 def main(
     prompt_file: Path = typer.Option(Path("prompts/simple_tasks.jsonl")),
-    output_file: Path = typer.Option(Path("results/batch_results.jsonl")),
+    output_file: Path | None = typer.Option(None),
     max_tasks: int = 50,
     max_tokens: int = 512,
 ) -> None:
@@ -59,7 +59,9 @@ def main(
                 )
             )
 
-        written = append_jsonl(output_file, rows)
+        written = append_jsonl(
+            resolve_output_file(settings, output_file, "batch_results.jsonl"), rows
+        )
         print(f"Wrote {len(rows)} rows to {written}")
 
     asyncio.run(run())

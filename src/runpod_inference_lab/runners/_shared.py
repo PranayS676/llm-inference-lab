@@ -20,6 +20,10 @@ def make_client(settings: Settings) -> OpenAICompatibleClient:
     )
 
 
+def resolve_output_file(settings: Settings, output_file: Path | None, filename: str) -> Path:
+    return output_file if output_file is not None else settings.results_dir / filename
+
+
 def build_task_result(
     metadata: RunMetadata,
     settings: Settings,

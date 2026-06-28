@@ -13,7 +13,7 @@ from runpod_inference_lab.common.prompts import build_prompt
 from runpod_inference_lab.common.settings import Settings
 from runpod_inference_lab.common.tokens import estimate_tokens
 from runpod_inference_lab.evals.combined import evaluate_task
-from runpod_inference_lab.runners._shared import build_task_result, make_client
+from runpod_inference_lab.runners._shared import build_task_result, make_client, resolve_output_file
 
 app = typer.Typer(help="Generate and run synthetic long-context needle tasks.")
 
@@ -68,7 +68,7 @@ def generate(
 @app.command("run")
 def run_generated(
     prompt_file: Path = typer.Option(Path("prompts/generated_long_context_tasks.jsonl")),
-    output_file: Path = typer.Option(Path("results/long_context_results.jsonl")),
+    output_file: Path | None = typer.Option(None),
     max_tasks: int = 3,
     max_tokens: int = 1024,
 ) -> None:
@@ -108,7 +108,10 @@ def run_generated(
                     },
                 )
             )
-        written = append_jsonl(output_file, rows)
+        written = append_jsonl(
+            resolve_output_file(settings, output_file, "long_context_results.jsonl"),
+            rows,
+        )
         print(f"Wrote {len(rows)} rows to {written}")
 
     asyncio.run(run())
