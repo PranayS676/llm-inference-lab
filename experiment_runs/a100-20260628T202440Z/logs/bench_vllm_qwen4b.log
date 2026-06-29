@@ -1,0 +1,316 @@
+Wrote 
+/workspace/llm-inference-lab/experiment_runs/a100-20260628T202440Z/reports/hardw
+are_recommendation_vllm_qwen4b.md
+━━━━━━━━━━━━━━[0m [35m  0%[0m [36m-:--:--[0m[2KRunning batch prompts [38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [35m  0%[0m [36m-:--:--[0m[2KRunning batch prompts [38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [35m  0%[0m [36m-:--:--[0m[2KRunning batch prompts [38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [35m  0%[0m [36m-:--:--[0m[2KRunning batch prompts [38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [35m  0%[0m [36m-:--:--[0m[2KRunning batch prompts [38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [35m  0%[0m [36m-:--:--[0m[2KRunning batch prompts [38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [35m  0%[0m [36m-:--:--[0m[2KRunning batch prompts [38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [35m  0%[0m [36m-:--:--[0m[2KRunning batch prompts [38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [35m  0%[0m [36m-:--:--[0m[2KRunning batch prompts [38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [35m  0%[0m [36m-:--:--[0m[2KRunning batch prompts [38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [35m  0%[0m [36m-:--:--[0m[2KRunning batch prompts [38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [35m  0%[0m [36m-:--:--[0m[2KRunning batch prompts [38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [35m  0%[0m [36m-:--:--[0m[2KRunning batch prompts [38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [35m  0%[0m [36m-:--:--[0m[2KRunning batch prompts [38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [35m  0%[0m [36m-:--:--[0m[2KRunning batch prompts [38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [35m  0%[0m [36m-:--:--[0m[2KRunning batch prompts [38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [35m  0%[0m [36m-:--:--[0m[2KRunning batch prompts [38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [35m  0%[0m [36m-:--:--[0m[2KRunning batch prompts [38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [35m  0%[0m [36m-:--:--[0m[2KRunning batch prompts [38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [35m  0%[0m [36m-:--:--[0m[2KRunning batch prompts [38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [35m  0%[0m [36m-:--:--[0m[2KRunning batch prompts [38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [35m  0%[0m [36m-:--:--[0m[2KRunning batch prompts [38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [35m  0%[0m [36m-:--:--[0m[2KRunning batch prompts [38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [35m  0%[0m [36m-:--:--[0m[2KRunning batch prompts [38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [35m  0%[0m [36m-:--:--[0m[2KRunning batch prompts [38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [35m  0%[0m [36m-:--:--[0m[2KRunning batch prompts [38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [35m  0%[0m [36m-:--:--[0m[2KRunning batch prompts [38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [35m  0%[0m [36m-:--:--[0m[2KRunning batch prompts [38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [35m  0%[0m [36m-:--:--[0m[2KRunning batch prompts [38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [35m  0%[0m [36m-:--:--[0m[2KRunning batch prompts [38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [35m  0%[0m [36m-:--:--[0m[2KRunning batch prompts [38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [35m  0%[0m [36m-:--:--[0m[2KRunning batch prompts [38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [35m  0%[0m [36m-:--:--[0m[2KRunning batch prompts [38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [35m  0%[0m [36m-:--:--[0m[2KRunning batch prompts [38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [35m  0%[0m [36m-:--:--[0m[2KRunning batch prompts [38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [35m  0%[0m [36m-:--:--[0m[2KRunning batch prompts [38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [35m  0%[0m [36m-:--:--[0m[2KRunning batch prompts [38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [35m  0%[0m [36m-:--:--[0m[2KRunning batch prompts [38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [35m  0%[0m [36m-:--:--[0m[2KRunning batch prompts [38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [35m  0%[0m [36m-:--:--[0m[2KRunning batch prompts [38;5;197m━━━━━━━━━━━━━[0m[38;5;237m╺[0m[38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [35m 33%[0m [36m-:--:--[0m[2KRunning batch prompts [38;5;197m━━━━━━━━━━━━━[0m[38;5;237m╺[0m[38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [35m 33%[0m [36m-:--:--[0m[2KRunning batch prompts [38;5;197m━━━━━━━━━━━━━[0m[38;5;237m╺[0m[38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [35m 33%[0m [36m-:--:--[0m[2KRunning batch prompts [38;5;197m━━━━━━━━━━━━━[0m[38;5;237m╺[0m[38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [35m 33%[0m [36m-:--:--[0m[2KRunning batch prompts [38;5;197m━━━━━━━━━━━━━[0m[38;5;237m╺[0m[38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [35m 33%[0m [36m-:--:--[0m[2KRunning batch prompts [38;5;197m━━━━━━━━━━━━━[0m[38;5;237m╺[0m[38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [35m 33%[0m [36m-:--:--[0m[2KRunning batch prompts [38;5;197m━━━━━━━━━━━━━[0m[38;5;237m╺[0m[38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [35m 33%[0m [36m-:--:--[0m[2KRunning batch prompts [38;5;197m━━━━━━━━━━━━━[0m[38;5;237m╺[0m[38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [35m 33%[0m [36m-:--:--[0m[2KRunning batch prompts [38;5;197m━━━━━━━━━━━━━[0m[38;5;237m╺[0m[38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [35m 33%[0m [36m-:--:--[0m[2KRunning batch prompts [38;5;197m━━━━━━━━━━━━━[0m[38;5;237m╺[0m[38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [35m 33%[0m [36m-:--:--[0m[2KRunning batch prompts [38;5;197m━━━━━━━━━━━━━[0m[38;5;237m╺[0m[38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [35m 33%[0m [36m-:--:--[0m[2KRunning batch prompts [38;5;197m━━━━━━━━━━━━━[0m[38;5;237m╺[0m[38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [35m 33%[0m [36m-:--:--[0m[2KRunning batch prompts [38;5;197m━━━━━━━━━━━━━[0m[38;5;237m╺[0m[38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [35m 33%[0m [36m-:--:--[0m[2KRunning batch prompts [38;5;197m━━━━━━━━━━━━━[0m[38;5;237m╺[0m[38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [35m 33%[0m [36m-:--:--[0m[2KRunning batch prompts [38;5;197m━━━━━━━━━━━━━[0m[38;5;237m╺[0m[38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [35m 33%[0m [36m-:--:--[0m[2KRunning batch prompts [38;5;197m━━━━━━━━━━━━━[0m[38;5;237m╺[0m[38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [35m 33%[0m [36m-:--:--[0m[2KRunning batch prompts [38;5;197m━━━━━━━━━━━━━[0m[38;5;237m╺[0m[38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [35m 33%[0m [36m-:--:--[0m[2KRunning batch prompts [38;5;197m━━━━━━━━━━━━━[0m[38;5;237m╺[0m[38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [35m 33%[0m [36m-:--:--[0m[2KRunning batch prompts [38;5;197m━━━━━━━━━━━━━[0m[38;5;237m╺[0m[38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [35m 33%[0m [36m-:--:--[0m[2KRunning batch prompts [38;5;197m━━━━━━━━━━━━━[0m[38;5;237m╺[0m[38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [35m 33%[0m [36m-:--:--[0m[2KRunning batch prompts [38;5;197m━━━━━━━━━━━━━[0m[38;5;237m╺[0m[38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [35m 33%[0m [36m-:--:--[0m[2KRunning batch prompts [38;5;197m━━━━━━━━━━━━━[0m[38;5;237m╺[0m[38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [35m 33%[0m [36m-:--:--[0m[2KRunning batch prompts [38;5;197m━━━━━━━━━━━━━[0m[38;5;237m╺[0m[38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [35m 33%[0m [36m-:--:--[0m[2KRunning batch prompts [38;5;197m━━━━━━━━━━━━━[0m[38;5;237m╺[0m[38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [35m 33%[0m [36m-:--:--[0m[2KRunning batch prompts [38;5;197m━━━━━━━━━━━━━[0m[38;5;237m╺[0m[38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [35m 33%[0m [36m-:--:--[0m[2KRunning batch prompts [38;5;197m━━━━━━━━━━━━━[0m[38;5;237m╺[0m[38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [35m 33%[0m [36m-:--:--[0m[2KRunning batch prompts [38;5;197m━━━━━━━━━━━━━[0m[38;5;237m╺[0m[38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [35m 33%[0m [36m-:--:--[0m[2KRunning batch prompts [38;5;197m━━━━━━━━━━━━━[0m[38;5;237m╺[0m[38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [35m 33%[0m [36m-:--:--[0m[2KRunning batch prompts [38;5;197m━━━━━━━━━━━━━[0m[38;5;237m╺[0m[38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [35m 33%[0m [36m-:--:--[0m[2KRunning batch prompts [38;5;197m━━━━━━━━━━━━━[0m[38;5;237m╺[0m[38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [35m 33%[0m [36m-:--:--[0m[2KRunning batch prompts [38;5;197m━━━━━━━━━━━━━[0m[38;5;237m╺[0m[38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [35m 33%[0m [36m-:--:--[0m[2KRunning batch prompts [38;5;197m━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[38;5;197m╸[0m[38;5;237m━━━━━━━━━━━━━[0m [35m 67%[0m [36m0:00:04[0m[2KRunning batch prompts [38;5;197m━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[38;5;197m╸[0m[38;5;237m━━━━━━━━━━━━━[0m [35m 67%[0m [36m0:00:04[0m[2KRunning batch prompts [38;5;197m━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[38;5;197m╸[0m[38;5;237m━━━━━━━━━━━━━[0m [35m 67%[0m [36m0:00:04[0m[2KRunning batch prompts [38;5;197m━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[38;5;197m╸[0m[38;5;237m━━━━━━━━━━━━━[0m [35m 67%[0m [36m0:00:04[0m[2KRunning batch prompts [38;5;197m━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[38;5;197m╸[0m[38;5;237m━━━━━━━━━━━━━[0m [35m 67%[0m [36m0:00:04[0m[2KRunning batch prompts [38;5;197m━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[38;5;197m╸[0m[38;5;237m━━━━━━━━━━━━━[0m [35m 67%[0m [36m0:00:04[0m[2KRunning batch prompts [38;5;197m━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[38;5;197m╸[0m[38;5;237m━━━━━━━━━━━━━[0m [35m 67%[0m [36m0:00:04[0m[2KRunning batch prompts [38;5;197m━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[38;5;197m╸[0m[38;5;237m━━━━━━━━━━━━━[0m [35m 67%[0m [36m0:00:04[0m[2KRunning batch prompts [38;5;197m━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[38;5;197m╸[0m[38;5;237m━━━━━━━━━━━━━[0m [35m 67%[0m [36m0:00:04[0m[2KRunning batch prompts [38;5;197m━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[38;5;197m╸[0m[38;5;237m━━━━━━━━━━━━━[0m [35m 67%[0m [36m0:00:04[0m[2KRunning batch prompts [38;5;197m━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[38;5;197m╸[0m[38;5;237m━━━━━━━━━━━━━[0m [35m 67%[0m [36m0:00:04[0m[2KRunning batch prompts [38;5;197m━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[38;5;197m╸[0m[38;5;237m━━━━━━━━━━━━━[0m [35m 67%[0m [36m0:00:04[0m[2KRunning batch prompts [38;5;197m━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[38;5;197m╸[0m[38;5;237m━━━━━━━━━━━━━[0m [35m 67%[0m [36m0:00:04[0m[2KRunning batch prompts [38;5;197m━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[38;5;197m╸[0m[38;5;237m━━━━━━━━━━━━━[0m [35m 67%[0m [36m0:00:04[0m[2KRunning batch prompts [38;5;197m━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[38;5;197m╸[0m[38;5;237m━━━━━━━━━━━━━[0m [35m 67%[0m [36m0:00:04[0m[2KRunning batch prompts [38;5;197m━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[38;5;197m╸[0m[38;5;237m━━━━━━━━━━━━━[0m [35m 67%[0m [36m0:00:04[0m[2KRunning batch prompts [38;5;197m━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[38;5;197m╸[0m[38;5;237m━━━━━━━━━━━━━[0m [35m 67%[0m [36m0:00:04[0m[2KRunning batch prompts [38;5;197m━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[38;5;197m╸[0m[38;5;237m━━━━━━━━━━━━━[0m [35m 67%[0m [36m0:00:04[0m[2KRunning batch prompts [38;5;197m━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[38;5;197m╸[0m[38;5;237m━━━━━━━━━━━━━[0m [35m 67%[0m [36m0:00:04[0m[2KRunning batch prompts [38;5;197m━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[38;5;197m╸[0m[38;5;237m━━━━━━━━━━━━━[0m [35m 67%[0m [36m0:00:04[0m[2KRunning batch prompts [38;5;197m━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[38;5;197m╸[0m[38;5;237m━━━━━━━━━━━━━[0m [35m 67%[0m [36m0:00:04[0m[2KRunning batch prompts [38;5;197m━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[38;5;197m╸[0m[38;5;237m━━━━━━━━━━━━━[0m [35m 67%[0m [36m0:00:04[0m[2KRunning batch prompts [38;5;197m━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[38;5;197m╸[0m[38;5;237m━━━━━━━━━━━━━[0m [35m 67%[0m [36m0:00:04[0m[2KRunning batch prompts [38;5;197m━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[38;5;197m╸[0m[38;5;237m━━━━━━━━━━━━━[0m [35m 67%[0m [36m0:00:04[0m[2KRunning batch prompts [38;5;197m━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[38;5;197m╸[0m[38;5;237m━━━━━━━━━━━━━[0m [35m 67%[0m [36m0:00:04[0m[2KRunning batch prompts [38;5;197m━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[38;5;197m╸[0m[38;5;237m━━━━━━━━━━━━━[0m [35m 67%[0m [36m0:00:04[0m[2KRunning batch prompts [38;5;197m━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[38;5;197m╸[0m[38;5;237m━━━━━━━━━━━━━[0m [35m 67%[0m [36m0:00:04[0m[2KRunning batch prompts [38;5;197m━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[38;5;197m╸[0m[38;5;237m━━━━━━━━━━━━━[0m [35m 67%[0m [36m0:00:04[0m[2KRunning batch prompts [38;5;197m━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[38;5;197m╸[0m[38;5;237m━━━━━━━━━━━━━[0m [35m 67%[0m [36m0:00:04[0m[2KRunning batch prompts [38;5;197m━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[38;5;197m╸[0m[38;5;237m━━━━━━━━━━━━━[0m [35m 67%[0m [36m0:00:04[0m[2KRunning batch prompts [38;5;197m━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[38;5;197m╸[0m[38;5;237m━━━━━━━━━━━━━[0m [35m 67%[0m [36m0:00:04[0m[2KRunning batch prompts [38;5;197m━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[38;5;197m╸[0m[38;5;237m━━━━━━━━━━━━━[0m [35m 67%[0m [36m0:00:04[0m[2KRunning batch prompts [38;5;197m━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[38;5;197m╸[0m[38;5;237m━━━━━━━━━━━━━[0m [35m 67%[0m [36m0:00:04[0m[2KRunning batch prompts [38;5;197m━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[38;5;197m╸[0m[38;5;237m━━━━━━━━━━━━━[0m [35m 67%[0m [36m0:00:04[0m[2KRunning batch prompts [38;5;197m━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[38;5;197m╸[0m[38;5;237m━━━━━━━━━━━━━[0m [35m 67%[0m [36m0:00:04[0m[2KRunning batch prompts [38;5;197m━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[38;5;197m╸[0m[38;5;237m━━━━━━━━━━━━━[0m [35m 67%[0m [36m0:00:04[0m[2KRunning batch prompts [38;5;197m━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[38;5;197m╸[0m[38;5;237m━━━━━━━━━━━━━[0m [35m 67%[0m [36m0:00:04[0m[2KRunning batch prompts [38;5;197m━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[38;5;197m╸[0m[38;5;237m━━━━━━━━━━━━━[0m [35m 67%[0m [36m0:00:04[0m[2KRunning batch prompts [38;5;197m━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[38;5;197m╸[0m[38;5;237m━━━━━━━━━━━━━[0m [35m 67%[0m [36m0:00:04[0m[2KRunning batch prompts [38;5;70m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [35m100%[0m [33m0:00:11[0m[2KRunning batch prompts [38;5;70m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [35m100%[0m [33m0:00:11[0m
+[?25hWrote 3 rows to /workspace/llm-inference-lab/results/batch_results.jsonl
+[?2004h(llm-inference-lab) root@d44b0b0a8898:/workspace/llm-inference-lab# .venv/bin/lab-batch --prompt-file prompts/rag_tasks.jsonl --max-tasks 10 --max-tokens 512
+[?2004l[?25l[2KRunning batch prompts [38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [35m  0%[0m [36m-:--:--[0m[2KRunning batch prompts [38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [35m  0%[0m [36m-:--:--[0m[2KRunning batch prompts [38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [35m  0%[0m [36m-:--:--[0m[2KRunning batch prompts [38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [35m  0%[0m [36m-:--:--[0m[2KRunning batch prompts [38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [35m  0%[0m [36m-:--:--[0m[2KRunning batch prompts [38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [35m  0%[0m [36m-:--:--[0m[2KRunning batch prompts [38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [35m  0%[0m [36m-:--:--[0m[2KRunning batch prompts [38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [35m  0%[0m [36m-:--:--[0m[2KRunning batch prompts [38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [35m  0%[0m [36m-:--:--[0m[2KRunning batch prompts [38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [35m  0%[0m [36m-:--:--[0m[2KRunning batch prompts [38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [35m  0%[0m [36m-:--:--[0m[2KRunning batch prompts [38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [35m  0%[0m [36m-:--:--[0m[2KRunning batch prompts [38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [35m  0%[0m [36m-:--:--[0m[2KRunning batch prompts [38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [35m  0%[0m [36m-:--:--[0m[2KRunning batch prompts [38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [35m  0%[0m [36m-:--:--[0m[2KRunning batch prompts [38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [35m  0%[0m [36m-:--:--[0m[2KRunning batch prompts [38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [35m  0%[0m [36m-:--:--[0m[2KRunning batch prompts [38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [35m  0%[0m [36m-:--:--[0m[2KRunning batch prompts [38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [35m  0%[0m [36m-:--:--[0m[2KRunning batch prompts [38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [35m  0%[0m [36m-:--:--[0m[2KRunning batch prompts [38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [35m  0%[0m [36m-:--:--[0m[2KRunning batch prompts [38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [35m  0%[0m [36m-:--:--[0m[2KRunning batch prompts [38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [35m  0%[0m [36m-:--:--[0m[2KRunning batch prompts [38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [35m  0%[0m [36m-:--:--[0m[2KRunning batch prompts [38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [35m  0%[0m [36m-:--:--[0m[2KRunning batch prompts [38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [35m  0%[0m [36m-:--:--[0m[2KRunning batch prompts [38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [35m  0%[0m [36m-:--:--[0m[2KRunning batch prompts [38;5;197m━━━━━━━━━━━━━━━━━━━━[0m[38;5;237m╺[0m[38;5;237m━━━━━━━━━━━━━━━━━━━[0m [35m 50%[0m [36m-:--:--[0m[2KRunning batch prompts [38;5;197m━━━━━━━━━━━━━━━━━━━━[0m[38;5;237m╺[0m[38;5;237m━━━━━━━━━━━━━━━━━━━[0m [35m 50%[0m [36m-:--:--[0m[2KRunning batch prompts [38;5;197m━━━━━━━━━━━━━━━━━━━━[0m[38;5;237m╺[0m[38;5;237m━━━━━━━━━━━━━━━━━━━[0m [35m 50%[0m [36m-:--:--[0m[2KRunning batch prompts [38;5;70m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [35m100%[0m [33m0:00:03[0m[2KRunning batch prompts [38;5;70m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [35m100%[0m [33m0:00:03[0m
+[?25hWrote 2 rows to /workspace/llm-inference-lab/results/batch_results.jsonl
+[?2004h(llm-inference-lab) root@d44b0b0a8898:/workspace/llm-inference-lab# .venv/bin/lab-batch --prompt-file prompts/function_calling_tasks.jsonl --max-tasks 10 --max-tokens 512
+[?2004l[?25l[2KRunning batch prompts [38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [35m  0%[0m [36m-:--:--[0m[2KRunning batch prompts [38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [35m  0%[0m [36m-:--:--[0m[2KRunning batch prompts [38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [35m  0%[0m [36m-:--:--[0m[2KRunning batch prompts [38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [35m  0%[0m [36m-:--:--[0m[2KRunning batch prompts [38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [35m  0%[0m [36m-:--:--[0m[2KRunning batch prompts [38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [35m  0%[0m [36m-:--:--[0m[2KRunning batch prompts [38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [35m  0%[0m [36m-:--:--[0m[2KRunning batch prompts [38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [35m  0%[0m [36m-:--:--[0m[2KRunning batch prompts [38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [35m  0%[0m [36m-:--:--[0m[2KRunning batch prompts [38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [35m  0%[0m [36m-:--:--[0m[2KRunning batch prompts [38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [35m  0%[0m [36m-:--:--[0m[2KRunning batch prompts [38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [35m  0%[0m [36m-:--:--[0m[2KRunning batch prompts [38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [35m  0%[0m [36m-:--:--[0m[2KRunning batch prompts [38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [35m  0%[0m [36m-:--:--[0m[2KRunning batch prompts [38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [35m  0%[0m [36m-:--:--[0m[2KRunning batch prompts [38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [35m  0%[0m [36m-:--:--[0m[2KRunning batch prompts [38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [35m  0%[0m [36m-:--:--[0m[2KRunning batch prompts [38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [35m  0%[0m [36m-:--:--[0m[2KRunning batch prompts [38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [35m  0%[0m [36m-:--:--[0m[2KRunning batch prompts [38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [35m  0%[0m [36m-:--:--[0m[2KRunning batch prompts [38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [35m  0%[0m [36m-:--:--[0m[2KRunning batch prompts [38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [35m  0%[0m [36m-:--:--[0m[2KRunning batch prompts [38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [35m  0%[0m [36m-:--:--[0m[2KRunning batch prompts [38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [35m  0%[0m [36m-:--:--[0m[2KRunning batch prompts [38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [35m  0%[0m [36m-:--:--[0m[2KRunning batch prompts [38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [35m  0%[0m [36m-:--:--[0m[2KRunning batch prompts [38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [35m  0%[0m [36m-:--:--[0m[2KRunning batch prompts [38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [35m  0%[0m [36m-:--:--[0m[2KRunning batch prompts [38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [35m  0%[0m [36m-:--:--[0m[2KRunning batch prompts [38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [35m  0%[0m [36m-:--:--[0m[2KRunning batch prompts [38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [35m  0%[0m [36m-:--:--[0m[2KRunning batch prompts [38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [35m  0%[0m [36m-:--:--[0m[2KRunning batch prompts [38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [35m  0%[0m [36m-:--:--[0m[2KRunning batch prompts [38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [35m  0%[0m [36m-:--:--[0m[2KRunning batch prompts [38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [35m  0%[0m [36m-:--:--[0m[2KRunning batch prompts [38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [35m  0%[0m [36m-:--:--[0m[2KRunning batch prompts [38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [35m  0%[0m [36m-:--:--[0m[2KRunning batch prompts [38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [35m  0%[0m [36m-:--:--[0m[2KRunning batch prompts [38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [35m  0%[0m [36m-:--:--[0m[2KRunning batch prompts [38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [35m  0%[0m [36m-:--:--[0m[2KRunning batch prompts [38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [35m  0%[0m [36m-:--:--[0m[2KRunning batch prompts [38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [35m  0%[0m [36m-:--:--[0m[2KRunning batch prompts [38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [35m  0%[0m [36m-:--:--[0m[2KRunning batch prompts [38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [35m  0%[0m [36m-:--:--[0m[2KRunning batch prompts [38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [35m  0%[0m [36m-:--:--[0m[2KRunning batch prompts [38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [35m  0%[0m [36m-:--:--[0m[2KRunning batch prompts [38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [35m  0%[0m [36m-:--:--[0m[2KRunning batch prompts [38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [35m  0%[0m [36m-:--:--[0m[2KRunning batch prompts [38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [35m  0%[0m [36m-:--:--[0m[2KRunning batch prompts [38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [35m  0%[0m [36m-:--:--[0m[2KRunning batch prompts [38;5;197m━━━━━━━━━━━━━━━━━━━━[0m[38;5;237m╺[0m[38;5;237m━━━━━━━━━━━━━━━━━━━[0m [35m 50%[0m [36m-:--:--[0m[2KRunning batch prompts [38;5;197m━━━━━━━━━━━━━━━━━━━━[0m[38;5;237m╺[0m[38;5;237m━━━━━━━━━━━━━━━━━━━[0m [35m 50%[0m [36m-:--:--[0m[2KRunning batch prompts [38;5;197m━━━━━━━━━━━━━━━━━━━━[0m[38;5;237m╺[0m[38;5;237m━━━━━━━━━━━━━━━━━━━[0m [35m 50%[0m [36m-:--:--[0m[2KRunning batch prompts [38;5;197m━━━━━━━━━━━━━━━━━━━━[0m[38;5;237m╺[0m[38;5;237m━━━━━━━━━━━━━━━━━━━[0m [35m 50%[0m [36m-:--:--[0m[2KRunning batch prompts [38;5;197m━━━━━━━━━━━━━━━━━━━━[0m[38;5;237m╺[0m[38;5;237m━━━━━━━━━━━━━━━━━━━[0m [35m 50%[0m [36m-:--:--[0m[2KRunning batch prompts [38;5;197m━━━━━━━━━━━━━━━━━━━━[0m[38;5;237m╺[0m[38;5;237m━━━━━━━━━━━━━━━━━━━[0m [35m 50%[0m [36m-:--:--[0m[2KRunning batch prompts [38;5;70m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [35m100%[0m [33m0:00:05[0m[2KRunning batch prompts [38;5;70m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [35m100%[0m [33m0:00:05[0m
+[?25hWrote 2 rows to /workspace/llm-inference-lab/results/batch_results.jsonl
+[?2004h(llm-inference-lab) root@d44b0b0a8898:/workspace/llm-inference-lab# .venv/bin/lab-concurrency --prompt-file prompts/simple_tasks.jsonl --concurrency 1 --max-tasks 10 --max-tokens 256
+[?2004l[1m{[0m
+    [32m'run_id'[0m: [32m'run-20260628T203009Z-329d5e9f'[0m,
+    [32m'run_tag'[0m: [32m'a100-vllm-qwen3-4b-full'[0m,
+    [32m'timestamp_utc'[0m: [32m'2026-06-28T20:30:09.366792+00:00'[0m,
+    [32m'git_commit'[0m: [32m'8f2b1e0ebe10e4022d733fd7195258b2111f97b6'[0m,
+    [32m'provider'[0m: [32m'runpod'[0m,
+    [32m'gpu_name'[0m: [32m'A100_80GB'[0m,
+    [32m'gpu_memory_gb'[0m: [1;36m80.0[0m,
+    [32m'engine'[0m: [32m'vllm'[0m,
+    [32m'engine_version'[0m: [32m'0.11.0'[0m,
+    [32m'model'[0m: [32m'Qwen/Qwen3-4B'[0m,
+    [32m'model_revision'[0m: [32m'unknown'[0m,
+    [32m'max_model_len'[0m: [1;36m32768[0m,
+    [32m'dtype'[0m: [32m'auto'[0m,
+    [32m'gpu_memory_utilization'[0m: [1;36m0.9[0m,
+    [32m'chat_template_enable_thinking'[0m: [3;91mFalse[0m,
+    [32m'pod_id'[0m: [32m'tvbphw98d24upc'[0m,
+    [32m'python_version'[0m: [32m'3.11.13'[0m,
+    [32m'platform'[0m: [32m'Linux-6.8.0-59-generic-x86_64-with-glibc2.39'[0m,
+    [32m'cuda_version'[0m: [32m'570.124.06'[0m,
+    [32m'run_type'[0m: [32m'concurrency_summary'[0m,
+    [32m'task_id'[0m: [32m'summary'[0m,
+    [32m'category'[0m: [32m'summary'[0m,
+    [32m'concurrency'[0m: [1;36m1[0m,
+    [32m'temperature'[0m: [1;36m0.0[0m,
+    [32m'max_tokens'[0m: [1;36m256[0m,
+    [32m'success'[0m: [3;92mTrue[0m,
+    [32m'error'[0m: [3;35mNone[0m,
+    [32m'total_tasks'[0m: [1;36m10[0m,
+    [32m'success_count'[0m: [1;36m10[0m,
+    [32m'error_count'[0m: [1;36m0[0m,
+    [32m'suite_latency_ms'[0m: [1;36m5359.077796339989[0m,
+    [32m'requests_per_second'[0m: [1;36m1.8659926912853466[0m,
+    [32m'p50_latency_ms'[0m: [1;36m346.93156741559505[0m,
+    [32m'p95_latency_ms'[0m: [1;36m2534.256521612406[0m,
+    [32m'p99_latency_ms'[0m: [1;36m2534.256521612406[0m,
+    [32m'gpu_before'[0m: [1m{[0m
+        [32m'available'[0m: [3;92mTrue[0m,
+        [32m'gpus'[0m: [1m[[0m
+            [1m{[0m
+                [32m'index'[0m: [1;36m0[0m,
+                [32m'name'[0m: [32m'NVIDIA A100-SXM4-80GB'[0m,
+                [32m'memory_used_mb'[0m: [1;36m74461.0[0m,
+                [32m'memory_total_mb'[0m: [1;36m81920.0[0m,
+                [32m'gpu_util_percent'[0m: [1;36m0.0[0m,
+                [32m'power_watts'[0m: [1;36m70.24[0m
+            [1m}[0m
+        [1m][0m,
+        [32m'detected_gpu_count'[0m: [1;36m1[0m,
+        [32m'detected_gpu_name'[0m: [32m'NVIDIA A100-SXM4-80GB'[0m
+    [1m}[0m,
+    [32m'gpu_after'[0m: [1m{[0m
+        [32m'available'[0m: [3;92mTrue[0m,
+        [32m'gpus'[0m: [1m[[0m
+            [1m{[0m
+                [32m'index'[0m: [1;36m0[0m,
+                [32m'name'[0m: [32m'NVIDIA A100-SXM4-80GB'[0m,
+                [32m'memory_used_mb'[0m: [1;36m74461.0[0m,
+                [32m'memory_total_mb'[0m: [1;36m81920.0[0m,
+                [32m'gpu_util_percent'[0m: [1;36m76.0[0m,
+                [32m'power_watts'[0m: [1;36m257.51[0m
+            [1m}[0m
+        [1m][0m,
+        [32m'detected_gpu_count'[0m: [1;36m1[0m,
+        [32m'detected_gpu_name'[0m: [32m'NVIDIA A100-SXM4-80GB'[0m
+    [1m}[0m,
+    [32m'prompt_file'[0m: [32m'prompts/simple_tasks.jsonl'[0m,
+    [32m'prompt_file_sha256'[0m: 
+[32m'225080d587118cb05b3e04121961046f6bfb917d235def3350570bbf3885fc8f'[0m
+[1m}[0m
+Wrote [1;36m10[0m detail rows + [1;36m1[0m summary row to 
+[35m/workspace/llm-inference-lab/results/[0m[95mconcurrency_results.jsonl[0m
+[?2004h(llm-inference-lab) root@d44b0b0a8898:/workspace/llm-inference-lab# .venv/bin/lab-concurrency --prompt-file prompts/simple_tasks.jsonl --concurrency 3 --max-tasks 15 --max-tokens 256
+[?2004l[1m{[0m
+    [32m'run_id'[0m: [32m'run-20260628T203019Z-aab86fbe'[0m,
+    [32m'run_tag'[0m: [32m'a100-vllm-qwen3-4b-full'[0m,
+    [32m'timestamp_utc'[0m: [32m'2026-06-28T20:30:19.923480+00:00'[0m,
+    [32m'git_commit'[0m: [32m'8f2b1e0ebe10e4022d733fd7195258b2111f97b6'[0m,
+    [32m'provider'[0m: [32m'runpod'[0m,
+    [32m'gpu_name'[0m: [32m'A100_80GB'[0m,
+    [32m'gpu_memory_gb'[0m: [1;36m80.0[0m,
+    [32m'engine'[0m: [32m'vllm'[0m,
+    [32m'engine_version'[0m: [32m'0.11.0'[0m,
+    [32m'model'[0m: [32m'Qwen/Qwen3-4B'[0m,
+    [32m'model_revision'[0m: [32m'unknown'[0m,
+    [32m'max_model_len'[0m: [1;36m32768[0m,
+    [32m'dtype'[0m: [32m'auto'[0m,
+    [32m'gpu_memory_utilization'[0m: [1;36m0.9[0m,
+    [32m'chat_template_enable_thinking'[0m: [3;91mFalse[0m,
+    [32m'pod_id'[0m: [32m'tvbphw98d24upc'[0m,
+    [32m'python_version'[0m: [32m'3.11.13'[0m,
+    [32m'platform'[0m: [32m'Linux-6.8.0-59-generic-x86_64-with-glibc2.39'[0m,
+    [32m'cuda_version'[0m: [32m'570.124.06'[0m,
+    [32m'run_type'[0m: [32m'concurrency_summary'[0m,
+    [32m'task_id'[0m: [32m'summary'[0m,
+    [32m'category'[0m: [32m'summary'[0m,
+    [32m'concurrency'[0m: [1;36m3[0m,
+    [32m'temperature'[0m: [1;36m0.0[0m,
+    [32m'max_tokens'[0m: [1;36m256[0m,
+    [32m'success'[0m: [3;92mTrue[0m,
+    [32m'error'[0m: [3;35mNone[0m,
+    [32m'total_tasks'[0m: [1;36m15[0m,
+    [32m'success_count'[0m: [1;36m15[0m,
+    [32m'error_count'[0m: [1;36m0[0m,
+    [32m'suite_latency_ms'[0m: [1;36m4107.991620898247[0m,
+    [32m'requests_per_second'[0m: [1;36m3.651419327072562[0m,
+    [32m'p50_latency_ms'[0m: [1;36m370.7283213734627[0m,
+    [32m'p95_latency_ms'[0m: [1;36m632.7382177114487[0m,
+    [32m'p99_latency_ms'[0m: [1;36m2651.178851723671[0m,
+    [32m'gpu_before'[0m: [1m{[0m
+        [32m'available'[0m: [3;92mTrue[0m,
+        [32m'gpus'[0m: [1m[[0m
+            [1m{[0m
+                [32m'index'[0m: [1;36m0[0m,
+                [32m'name'[0m: [32m'NVIDIA A100-SXM4-80GB'[0m,
+                [32m'memory_used_mb'[0m: [1;36m74461.0[0m,
+                [32m'memory_total_mb'[0m: [1;36m81920.0[0m,
+                [32m'gpu_util_percent'[0m: [1;36m0.0[0m,
+                [32m'power_watts'[0m: [1;36m70.24[0m
+            [1m}[0m
+        [1m][0m,
+        [32m'detected_gpu_count'[0m: [1;36m1[0m,
+        [32m'detected_gpu_name'[0m: [32m'NVIDIA A100-SXM4-80GB'[0m
+    [1m}[0m,
+    [32m'gpu_after'[0m: [1m{[0m
+        [32m'available'[0m: [3;92mTrue[0m,
+        [32m'gpus'[0m: [1m[[0m
+            [1m{[0m
+                [32m'index'[0m: [1;36m0[0m,
+                [32m'name'[0m: [32m'NVIDIA A100-SXM4-80GB'[0m,
+                [32m'memory_used_mb'[0m: [1;36m74461.0[0m,
+                [32m'memory_total_mb'[0m: [1;36m81920.0[0m,
+                [32m'gpu_util_percent'[0m: [1;36m92.0[0m,
+                [32m'power_watts'[0m: [1;36m247.16[0m
+            [1m}[0m
+        [1m][0m,
+        [32m'detected_gpu_count'[0m: [1;36m1[0m,
+        [32m'detected_gpu_name'[0m: [32m'NVIDIA A100-SXM4-80GB'[0m
+    [1m}[0m,
+    [32m'prompt_file'[0m: [32m'prompts/simple_tasks.jsonl'[0m,
+    [32m'prompt_file_sha256'[0m: 
+[32m'225080d587118cb05b3e04121961046f6bfb917d235def3350570bbf3885fc8f'[0m
+[1m}[0m
+Wrote [1;36m15[0m detail rows + [1;36m1[0m summary row to 
+[35m/workspace/llm-inference-lab/results/[0m[95mconcurrency_results.jsonl[0m
+[?2004h(llm-inference-lab) root@d44b0b0a8898:/workspace/llm-inference-lab# .venv/bin/lab-concurrency --prompt-file prompts/simple_tasks.jsonl --concurrency 5 --max-tasks 25 --max-tokens 256
+[?2004l[1m{[0m
+    [32m'run_id'[0m: [32m'run-20260628T203028Z-b310a85a'[0m,
+    [32m'run_tag'[0m: [32m'a100-vllm-qwen3-4b-full'[0m,
+    [32m'timestamp_utc'[0m: [32m'2026-06-28T20:30:28.008273+00:00'[0m,
+    [32m'git_commit'[0m: [32m'8f2b1e0ebe10e4022d733fd7195258b2111f97b6'[0m,
+    [32m'provider'[0m: [32m'runpod'[0m,
+    [32m'gpu_name'[0m: [32m'A100_80GB'[0m,
+    [32m'gpu_memory_gb'[0m: [1;36m80.0[0m,
+    [32m'engine'[0m: [32m'vllm'[0m,
+    [32m'engine_version'[0m: [32m'0.11.0'[0m,
+    [32m'model'[0m: [32m'Qwen/Qwen3-4B'[0m,
+    [32m'model_revision'[0m: [32m'unknown'[0m,
+    [32m'max_model_len'[0m: [1;36m32768[0m,
+    [32m'dtype'[0m: [32m'auto'[0m,
+    [32m'gpu_memory_utilization'[0m: [1;36m0.9[0m,
+    [32m'chat_template_enable_thinking'[0m: [3;91mFalse[0m,
+    [32m'pod_id'[0m: [32m'tvbphw98d24upc'[0m,
+    [32m'python_version'[0m: [32m'3.11.13'[0m,
+    [32m'platform'[0m: [32m'Linux-6.8.0-59-generic-x86_64-with-glibc2.39'[0m,
+    [32m'cuda_version'[0m: [32m'570.124.06'[0m,
+    [32m'run_type'[0m: [32m'concurrency_summary'[0m,
+    [32m'task_id'[0m: [32m'summary'[0m,
+    [32m'category'[0m: [32m'summary'[0m,
+    [32m'concurrency'[0m: [1;36m5[0m,
+    [32m'temperature'[0m: [1;36m0.0[0m,
+    [32m'max_tokens'[0m: [1;36m256[0m,
+    [32m'success'[0m: [3;92mTrue[0m,
+    [32m'error'[0m: [3;35mNone[0m,
+    [32m'total_tasks'[0m: [1;36m25[0m,
+    [32m'success_count'[0m: [1;36m25[0m,
+    [32m'error_count'[0m: [1;36m0[0m,
+    [32m'suite_latency_ms'[0m: [1;36m3758.8089667260647[0m,
+    [32m'requests_per_second'[0m: [1;36m6.65104298231338[0m,
+    [32m'p50_latency_ms'[0m: [1;36m361.5012764930725[0m,
+    [32m'p95_latency_ms'[0m: [1;36m670.4272404313087[0m,
+    [32m'p99_latency_ms'[0m: [1;36m2236.1743599176407[0m,
+    [32m'gpu_before'[0m: [1m{[0m
+        [32m'available'[0m: [3;92mTrue[0m,
+        [32m'gpus'[0m: [1m[[0m
+            [1m{[0m
+                [32m'index'[0m: [1;36m0[0m,
+                [32m'name'[0m: [32m'NVIDIA A100-SXM4-80GB'[0m,
+                [32m'memory_used_mb'[0m: [1;36m74461.0[0m,
+                [32m'memory_total_mb'[0m: [1;36m81920.0[0m,
+                [32m'gpu_util_percent'[0m: [1;36m0.0[0m,
+                [32m'power_watts'[0m: [1;36m70.24[0m
+            [1m}[0m
+        [1m][0m,
+        [32m'detected_gpu_count'[0m: [1;36m1[0m,
+        [32m'detected_gpu_name'[0m: [32m'NVIDIA A100-SXM4-80GB'[0m
+    [1m}[0m,
+    [32m'gpu_after'[0m: [1m{[0m
+        [32m'available'[0m: [3;92mTrue[0m,
+        [32m'gpus'[0m: [1m[[0m
+            [1m{[0m
+                [32m'index'[0m: [1;36m0[0m,
+                [32m'name'[0m: [32m'NVIDIA A100-SXM4-80GB'[0m,
+                [32m'memory_used_mb'[0m: [1;36m74461.0[0m,
+                [32m'memory_total_mb'[0m: [1;36m81920.0[0m,
+                [32m'gpu_util_percent'[0m: [1;36m91.0[0m,
+                [32m'power_watts'[0m: [1;36m249.95[0m
+            [1m}[0m
+        [1m][0m,
+        [32m'detected_gpu_count'[0m: [1;36m1[0m,
+        [32m'detected_gpu_name'[0m: [32m'NVIDIA A100-SXM4-80GB'[0m
+    [1m}[0m,
+    [32m'prompt_file'[0m: [32m'prompts/simple_tasks.jsonl'[0m,
+    [32m'prompt_file_sha256'[0m: 
+[32m'225080d587118cb05b3e04121961046f6bfb917d235def3350570bbf3885fc8f'[0m
+[1m}[0m
+Wrote [1;36m25[0m detail rows + [1;36m1[0m summary row to 
+[35m/workspace/llm-inference-lab/results/[0m[95mconcurrency_results.jsonl[0m
+[?2004h(llm-inference-lab) root@d44b0b0a8898:/workspace/llm-inference-lab# .venv/bin/lab-concurrency --prompt-file prompts/simple_tasks.jsonl --concurrency 10 --max-tasks 50 --max-tokens 256
+[?2004l[1m{[0m
+    [32m'run_id'[0m: [32m'run-20260628T203035Z-e5e95779'[0m,
+    [32m'run_tag'[0m: [32m'a100-vllm-qwen3-4b-full'[0m,
+    [32m'timestamp_utc'[0m: [32m'2026-06-28T20:30:35.588234+00:00'[0m,
+    [32m'git_commit'[0m: [32m'8f2b1e0ebe10e4022d733fd7195258b2111f97b6'[0m,
+    [32m'provider'[0m: [32m'runpod'[0m,
+    [32m'gpu_name'[0m: [32m'A100_80GB'[0m,
+    [32m'gpu_memory_gb'[0m: [1;36m80.0[0m,
+    [32m'engine'[0m: [32m'vllm'[0m,
+    [32m'engine_version'[0m: [32m'0.11.0'[0m,
+    [32m'model'[0m: [32m'Qwen/Qwen3-4B'[0m,
+    [32m'model_revision'[0m: [32m'unknown'[0m,
+    [32m'max_model_len'[0m: [1;36m32768[0m,
+    [32m'dtype'[0m: [32m'auto'[0m,
+    [32m'gpu_memory_utilization'[0m: [1;36m0.9[0m,
+    [32m'chat_template_enable_thinking'[0m: [3;91mFalse[0m,
+    [32m'pod_id'[0m: [32m'tvbphw98d24upc'[0m,
+    [32m'python_version'[0m: [32m'3.11.13'[0m,
+    [32m'platform'[0m: [32m'Linux-6.8.0-59-generic-x86_64-with-glibc2.39'[0m,
+    [32m'cuda_version'[0m: [32m'570.124.06'[0m,
+    [32m'run_type'[0m: [32m'concurrency_summary'[0m,
+    [32m'task_id'[0m: [32m'summary'[0m,
+    [32m'category'[0m: [32m'summary'[0m,
+    [32m'concurrency'[0m: [1;36m10[0m,
+    [32m'temperature'[0m: [1;36m0.0[0m,
+    [32m'max_tokens'[0m: [1;36m256[0m,
+    [32m'success'[0m: [3;92mTrue[0m,
+    [32m'error'[0m: [3;35mNone[0m,
+    [32m'total_tasks'[0m: [1;36m50[0m,
+    [32m'success_count'[0m: [1;36m50[0m,
+    [32m'error_count'[0m: [1;36m0[0m,
+    [32m'suite_latency_ms'[0m: [1;36m4004.4244341552258[0m,
+    [32m'requests_per_second'[0m: [1;36m12.486188919818638[0m,
+    [32m'p50_latency_ms'[0m: [1;36m402.3960828781128[0m,
+    [32m'p95_latency_ms'[0m: [1;36m771.8268409371376[0m,
+    [32m'p99_latency_ms'[0m: [1;36m2363.5728023946285[0m,
+    [32m'gpu_before'[0m: [1m{[0m
+        [32m'available'[0m: [3;92mTrue[0m,
+        [32m'gpus'[0m: [1m[[0m
+            [1m{[0m
+                [32m'index'[0m: [1;36m0[0m,
+                [32m'name'[0m: [32m'NVIDIA A100-SXM4-80GB'[0m,
+                [32m'memory_used_mb'[0m: [1;36m74461.0[0m,
+                [32m'memory_total_mb'[0m: [1;36m81920.0[0m,
+                [32m'gpu_util_percent'[0m: [1;36m0.0[0m,
+                [32m'power_watts'[0m: [1;36m70.24[0m
+            [1m}[0m
+        [1m][0m,
+        [32m'detected_gpu_count'[0m: [1;36m1[0m,
+        [32m'detected_gpu_name'[0m: [32m'NVIDIA A100-SXM4-80GB'[0m
+    [1m}[0m,
+    [32m'gpu_after'[0m: [1m{[0m
+        [32m'available'[0m: [3;92mTrue[0m,
+        [32m'gpus'[0m: [1m[[0m
+            [1m{[0m
+                [32m'index'[0m: [1;36m0[0m,
+                [32m'name'[0m: [32m'NVIDIA A100-SXM4-80GB'[0m,
+                [32m'memory_used_mb'[0m: [1;36m74461.0[0m,
+                [32m'memory_total_mb'[0m: [1;36m81920.0[0m,
+                [32m'gpu_util_percent'[0m: [1;36m92.0[0m,
+                [32m'power_watts'[0m: [1;36m250.21[0m
+            [1m}[0m
+        [1m][0m,
+        [32m'detected_gpu_count'[0m: [1;36m1[0m,
+        [32m'detected_gpu_name'[0m: [32m'NVIDIA A100-SXM4-80GB'[0m
+    [1m}[0m,
+    [32m'prompt_file'[0m: [32m'prompts/simple_tasks.jsonl'[0m,
+    [32m'prompt_file_sha256'[0m: 
+[32m'225080d587118cb05b3e04121961046f6bfb917d235def3350570bbf3885fc8f'[0m
+[1m}[0m
+Wrote [1;36m50[0m detail rows + [1;36m1[0m summary row to 
+[35m/workspace/llm-inference-lab/results/[0m[95mconcurrency_results.jsonl[0m
+[?2004h(llm-inference-lab) root@d44b0b0a8898:/workspace/llm-inference-lab# .venv/bin/lab-agent-workflow --prompt-file prompts/agent_workflow_tasks.jsonl --max-tasks 2 --max-tokens 700
+[?2004lWrote [1;36m12[0m rows to 
+[35m/workspace/llm-inference-lab/results/[0m[95magent_workflow_results.jsonl[0m
+[?2004h(llm-inference-lab) root@d44b0b0a8898:/workspace/llm-inference-lab# .venv/bin/lab-agent-concurrent --prompt-file prompts/agent_workflow_tasks.jsonl --max-tasks 2 --max-tokens 700
+[?2004lWrote [1;36m12[0m rows to 
+[35m/workspace/llm-inference-lab/results/[0m[95magent_concurrent_results.jsonl[0m
+[?2004h(llm-inference-lab) root@d44b0b0a8898:/workspace/llm-inference-lab# .venv/bin/lab-report --results-dir $ART/results --output-file $ART/reports/hardware_recommendation_vllm_qwen4b.md
+[?2004lWrote 
+[35m/workspace/llm-inference-lab/experiment_runs/a100-20260628T202440Z/reports/[0m[95mhardw[0m
+[95mare_recommendation_vllm_qwen4b.md[0m
+[?2004h(llm-inference-lab) root@d44b0b0a8898:/workspace/llm-inference-lab# echo BENCH_VLLM_QWEN4B_DONE
+[?2004lBENCH_VLLM_QWEN4B_DONE
+[?2004h(llm-inference-lab) root@d44b0b0a8898:/workspace/llm-inference-lab# 

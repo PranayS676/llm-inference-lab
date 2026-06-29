@@ -1,0 +1,7 @@
+experiment_id=a100-20260628T202440Z
+utc_started=2026-06-28T20:24:54Z
+pod_id=tvbphw98d24upc
+gpu=A100_SXM_80GB
+8f2b1e0ebe10e4022d733fd7195258b2111f97b6
+## main...origin/main
+?? experiment_runs/
