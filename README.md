@@ -134,7 +134,13 @@ uv run lab-long-context generate --target-tokens 8000 --target-tokens 32000
 uv run lab-long-context run --prompt-file prompts/generated_long_context_tasks.jsonl
 uv run lab-summarize --input-file results/concurrency_results.jsonl --output-csv results/summary.csv
 uv run lab-report --results-dir results --output-file reports/hardware_recommendation.md
+uv run lab-analyze experiment_runs/a100-20260628T202440Z
 ```
+
+`lab-analyze` reads an `experiment_runs/<id>/results` directory and writes
+performance-only analysis artifacts into `experiment_runs/<id>/analysis`,
+including CSV summaries, a Markdown report, and an interactive HTML dashboard.
+By default it includes only official benchmark tags ending in `-official`.
 
 ## Result Policy
 

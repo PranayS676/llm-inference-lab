@@ -30,6 +30,7 @@ lab-agent-concurrent = "runpod_inference_lab.runners.agent_concurrent:app"
 lab-long-context = "runpod_inference_lab.runners.long_context:app"
 lab-summarize = "runpod_inference_lab.reports.summarize_results:app"
 lab-report = "runpod_inference_lab.reports.generate_markdown_report:app"
+lab-analyze = "runpod_inference_lab.reports.deep_analysis:app"
 
 [dependency-groups]
 dev = [

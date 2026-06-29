@@ -1,0 +1,21 @@
+run_tag,model,model_label,engine,series_label,concurrency,requests_per_second,observed_rps_scaling_vs_c1,ideal_rps_scaling_vs_c1,scaling_efficiency_pct
+a100-sglang-qwen3-14b-official,Qwen/Qwen3-14B,Qwen3 14B,sglang,Qwen3 14B / SGLang,1.0,0.9843534516971436,1.0,1.0,100.0
+a100-sglang-qwen3-14b-official,Qwen/Qwen3-14B,Qwen3 14B,sglang,Qwen3 14B / SGLang,3.0,2.1418355944104825,2.1758806155631403,3.0,72.52935385210468
+a100-sglang-qwen3-14b-official,Qwen/Qwen3-14B,Qwen3 14B,sglang,Qwen3 14B / SGLang,5.0,3.4860252290228,3.5414364860634904,5.0,70.82872972126981
+a100-sglang-qwen3-14b-official,Qwen/Qwen3-14B,Qwen3 14B,sglang,Qwen3 14B / SGLang,10.0,6.603538027845351,6.708502943185762,10.0,67.0850294318576
+a100-sglang-qwen3-4b-official,Qwen/Qwen3-4B,Qwen3 4B,sglang,Qwen3 4B / SGLang,1.0,2.5532976229599025,1.0,1.0,100.0
+a100-sglang-qwen3-4b-official,Qwen/Qwen3-4B,Qwen3 4B,sglang,Qwen3 4B / SGLang,3.0,4.7322077336104185,1.8533709862325494,3.0,61.77903287441831
+a100-sglang-qwen3-4b-official,Qwen/Qwen3-4B,Qwen3 4B,sglang,Qwen3 4B / SGLang,5.0,8.651302675353836,3.388286033543101,5.0,67.76572067086202
+a100-sglang-qwen3-4b-official,Qwen/Qwen3-4B,Qwen3 4B,sglang,Qwen3 4B / SGLang,10.0,14.905918561895634,5.837908760756215,10.0,58.379087607562155
+a100-vllm-qwen3-14b-official,Qwen/Qwen3-14B,Qwen3 14B,vllm,Qwen3 14B / vLLM,1.0,0.8755808494688408,1.0,1.0,100.0
+a100-vllm-qwen3-14b-official,Qwen/Qwen3-14B,Qwen3 14B,vllm,Qwen3 14B / vLLM,3.0,1.8893185323280086,2.1577887792705126,3.0,71.92629264235042
+a100-vllm-qwen3-14b-official,Qwen/Qwen3-14B,Qwen3 14B,vllm,Qwen3 14B / vLLM,5.0,3.3193767673266237,3.7910568388290793,5.0,75.82113677658158
+a100-vllm-qwen3-14b-official,Qwen/Qwen3-14B,Qwen3 14B,vllm,Qwen3 14B / vLLM,10.0,6.234996420070357,7.120983086659253,10.0,71.20983086659253
+a100-vllm-qwen3-32b-official,Qwen/Qwen3-32B,Qwen3 32B,vllm,Qwen3 32B / vLLM,1.0,0.48978956959424813,1.0,1.0,100.0
+a100-vllm-qwen3-32b-official,Qwen/Qwen3-32B,Qwen3 32B,vllm,Qwen3 32B / vLLM,3.0,1.1161803990387194,2.2788978539567237,3.0,75.96326179855745
+a100-vllm-qwen3-32b-official,Qwen/Qwen3-32B,Qwen3 32B,vllm,Qwen3 32B / vLLM,5.0,1.854192459355079,3.785692008286601,5.0,75.71384016573202
+a100-vllm-qwen3-32b-official,Qwen/Qwen3-32B,Qwen3 32B,vllm,Qwen3 32B / vLLM,10.0,3.639023349452196,7.429768977046282,10.0,74.29768977046282
+a100-vllm-qwen3-4b-official,Qwen/Qwen3-4B,Qwen3 4B,vllm,Qwen3 4B / vLLM,1.0,2.058529919545639,1.0,1.0,100.0
+a100-vllm-qwen3-4b-official,Qwen/Qwen3-4B,Qwen3 4B,vllm,Qwen3 4B / vLLM,3.0,4.521282104509665,2.196364532562931,3.0,73.21215108543103
+a100-vllm-qwen3-4b-official,Qwen/Qwen3-4B,Qwen3 4B,vllm,Qwen3 4B / vLLM,5.0,6.737143162366696,3.2727934135898913,5.0,65.45586827179783
+a100-vllm-qwen3-4b-official,Qwen/Qwen3-4B,Qwen3 4B,vllm,Qwen3 4B / vLLM,10.0,12.845617920767632,6.24019004960731,10.0,62.401900496073104
